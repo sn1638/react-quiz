@@ -103,7 +103,7 @@ const btn4click = ()=>{
             <button onClick={btn3click} className={`shadow-black shadow-2xl ${bg1.replace("bg-","")} cursor-pointer   m-1 sm:w-full md:w-1/2 lg:w-1/5 rounded-2xl p-3 ${bg3}`}>{`(c)${question[num].options[2]}`}</button> 
             <button onClick={btn4click} className={`shadow-black shadow-2xl ${bg1.replace("bg-","")} cursor-pointer m-1 sm:w-full md:w-1/2 lg:w-1/5 rounded-2xl p-3 ${bg4}`}>{`(d)${question[num].options[3]}`}</button> 
             </div>
-            <div className='text-red-800 p-7 sm:text:4xl md:text-5xl lg:text-6xl flex items-center justify-center'>
+            <div className='text-red-500 p-7 sm:text:4xl md:text-5xl lg:text-6xl flex items-center justify-center'>
                 {message}
             </div>
             <footer className='fixed bottom-0 right-0 sm:w-full md:w-1/2 lg:w-1/3 p-7 flex justify-between'>
