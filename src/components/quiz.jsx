@@ -93,7 +93,7 @@ const btn4click = ()=>{
     }}
   return (
     <>
-        <div className='w-full h-full p-5'>
+        <div className=' w-full h-full p-5'>
            <div className=' lg:h-1/5 md:h-1/3 sm:h-1/2 shadow-black shadow-xl rounded-3xl p-6 bg-cyan-700 text-white sm:text-3xl md:text-4xl lg:text-4xl flex items-center justify-center m-1'>
                {question[num].question}
             </div > 
